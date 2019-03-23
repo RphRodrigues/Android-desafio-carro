@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:srcCompat="@drawable/mercedes" />
+
+    <TextView
+        android:id="@+id/labelId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/nome_do_carro" />
+
+    <EditText
+        android:id="@+id/edtNomeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtMarcaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/marca_do_carro" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/modeloIdLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtModeloId"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3sp"
+                android:hint="@string/modelo_do_carro"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:id="@+id/edtAnoId"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11sp"
+            android:layout_toEndOf="@+id/modeloIdLayout"
+            android:layout_toRightOf="@+id/modeloIdLayout"
+            android:hint="@string/ano_carro"
+            android:inputType="number"
+            tools:ignore="NotSibling" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/criaCarroId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/criar_carro" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/acelerarId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acelerar" />
+
+        <Button
+            android:id="@+id/frearId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="@string/frear" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="20" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="30" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="40" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="50" />
+        </TableRow>
+
+        <TableRow>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="60" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="70" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="80" />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="90" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="100" />
+
+        </TableRow>
+
+        <TableRow>
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

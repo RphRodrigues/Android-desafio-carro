@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">desafio carro</string>
+    <string name="nome_do_carro">Nome do carro</string>
+    <string name="marca_do_carro">Marca do carro</string>
+    <string name="modelo_do_carro">Modelo do carro</string>
+    <string name="ano_carro">Ano do carro</string>
+    <string name="criar_carro">criar carro</string>
+    <string name="frear">Frear</string>
+    <string name="acelerar">Acelerar</string>
+    <string name="carro_criado_sucesso">Carro criado com sucesso</string>
+    <string name="crie_um_carro">Crie um carro</string>
+    <string name="carro_criado">O carro já foi criado</string>
+</resources>
